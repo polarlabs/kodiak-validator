@@ -1,5 +1,5 @@
 name: workflow-cargo-tarpaulin
-run-name: cargo test run by ${{ github.actor }}
+run-name: cargo tarpaulin run by ${{ github.actor }}
 on: [push]
 env:
   CARGO_TERM_COLOR: always
@@ -19,7 +19,7 @@ jobs:
       - name: check-coverage
         uses: actions-rs/tarpaulin@v0.1
         with:
-          version: 0.25.1
+          version: 0.22.0
           args: --ignore-tests --out Xml --fail-under 100
 
       - name: report-coverage
