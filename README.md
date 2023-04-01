@@ -35,8 +35,8 @@
 [crates.io Latest]: https://img.shields.io/crates/v/kodiak-validator?label=latest&logo=docs.rs&style=flat-square
 [crates]: https://crates.io/crates/kodiak-validator
 
-[crates.io License]: https://img.shields.io/crates/l/kodiak-validator?color=007ec6&style=flat-square
-[GitHub License]: https://img.shields.io/github/license/polarlabs/kodiak-validator?color=007ec6&style=flat-square
+[crates.io License]: https://img.shields.io/crates/l/kodiak-validator?logo=docs.rs&color=007ec6&style=flat-square
+[GitHub License]: https://img.shields.io/github/license/polarlabs/kodiak-validator?logo=github&color=007ec6&style=flat-square
 [license-mit]: https://choosealicense.com/licenses/mit/
 [license-apache]: https://choosealicense.com/licenses/apache-2.0/
 
